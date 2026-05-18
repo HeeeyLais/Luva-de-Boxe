@@ -1,20 +1,20 @@
-﻿# Luva-de-Boxe
-…or create a new repository on the command line
-echo "# Luva-de-Boxe" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/HeeeyLais/Luva-de-Boxe.git
-git push -u origin main
+﻿# Luva-de-Boxe<br>
+…or create a new repository on the command line<br>
+echo "# Luva-de-Boxe" >> README.md<br>
+git init<br>
+git add README.md<br>
+git commit -m "first commit"<br>
+git branch -M main<br>
+git remote add origin https://github.com/HeeeyLais/Luva-de-Boxe.git<br>
+git push -u origin main<br>
 
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/HeeeyLais/Luva-de-Boxe.git
-git branch -M main
-git push -u origin main
+…or push an existing repository from the command line<br>
+git remote add origin https://github.com/HeeeyLais/Luva-de-Boxe.git<br>
+git branch -M main<br>
+git push -u origin main<br>
 
 ## Para inicializar:
-pip install flask flask-socketio pyserial
-python backend.py
+pip install flask flask-socketio pyserial<br>
+python backend.py <br>
 http://localhost:5000
