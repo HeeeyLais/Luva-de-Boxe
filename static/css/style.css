@@ -1,0 +1,144 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:#2e222f  ; 
+  color:#f0ebe8;
+  font-family: 'Segoe UI', sans-serif;
+  min-height:100vh; 
+  padding:24px;
+}
+
+h1 { font-size:22px; 
+    letter-spacing:4px; 
+    text-transform: uppercase;
+    margin-bottom:24px; 
+    color:#993d41
+    ; 
+}
+
+.layout { 
+    display:grid; 
+    grid-template-columns:1fr 280px; 
+    gap:20px; 
+}
+
+.card {
+  background:#665964  ; 
+  border:1px solid #222230;
+  border-radius:8px; 
+  padding:24px;
+}
+
+#intensidade {
+  font-size:16px; 
+  letter-spacing:4px; 
+  text-transform:uppercase;
+  color:#000000; 
+  margin-bottom:8px;
+}
+#forca {
+  font-size:100px; 
+  font-weight:900; 
+  line-height:1;
+  transition: 
+  color 0.2s;
+}
+.unidade { font-size:20px; 
+    color:#555; 
+    margin-bottom:4px; 
+}
+
+#intervalo {
+  font-size:13px; 
+  color:#555;
+  margin-top:8px; 
+  letter-spacing:1px;
+}
+
+.stats {
+  display:grid; 
+  grid-template-columns:1fr 1fr 1fr;
+  gap:12px; 
+  margin-top:20px;
+}
+.stat {
+  background:#0d0d10; 
+  border-radius:6px;
+  padding:12px; 
+  text-align:center;
+}
+.stat-val { font-size:28px; 
+    font-weight:700; 
+}
+.stat-lbl {
+  font-size:11px; 
+  color:#000000; 
+  letter-spacing:2px;
+  text-transform:uppercase; 
+  margin-top:4px;
+}
+
+.config-titulo {
+  font-size:11px; 
+  letter-spacing:3px; 
+  text-transform:uppercase;
+  color:#000000; 
+  margin-bottom:16px;
+}
+
+.campo { margin-bottom:14px; 
+}
+.campo label {
+  display:block; 
+  font-size:12px; 
+  color:#888;
+  margin-bottom:4px; 
+  letter-spacing:1px;
+}
+.campo input {
+  width:100%; 
+  background:#0d0d10; 
+  border:1px solid #222230;
+  color:#e8e8f0; 
+  border-radius:4px; 
+  padding:8px 10px;
+  font-size:14px; 
+  font-family:inherit;
+  transition: border-color 0.2s;
+}
+.campo input:focus { 
+    outline:none; 
+    border-color:#444; 
+}
+.btn-salvar {
+  width:100%; 
+  padding:10px;
+  background:transparent; 
+  border:1px solid #333;
+  color:#e8e8f0; 
+  border-radius:4px;
+  font-size:13px; 
+  letter-spacing:2px; 
+  text-transform:uppercase;
+  cursor:pointer; 
+  transition: all 0.15s;
+  font-family:inherit;
+}
+.btn-salvar:hover { 
+    background:#cd683d; 
+    border-color:#555; 
+}
+.btn-salvar:active { 
+    transform:scale(0.97); 
+}
+
+.status-config {
+  font-size:11px; 
+  text-align:center; 
+  margin-top:8px;
+  color:#555; 
+  min-height:16px; 
+  transition: color 0.3s;
+}
+.status-config.ok { 
+    color:#4caf50; 
+}
