@@ -28,9 +28,9 @@ def adc_para_newtons(valor_adc):
     return round(config["massa_kg"] * aceleracao_ms, 1)
 
 def classificar(forca):
-    if forca < LIMIAR_LEVE:  return "LEVE"
-    if forca < LIMIAR_MEDIO: return "MEDIO"
-    if forca < LIMIAR_FORTE: return "FORTE"
+    if forca <= LIMIAR_LEVE:  return "LEVE"
+    if forca <= LIMIAR_MEDIO: return "MEDIO"
+    if forca <= LIMIAR_FORTE: return "FORTE"
     return "NOCAUTE"
 
 def ler_bluetooth():

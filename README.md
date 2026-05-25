@@ -14,6 +14,9 @@ git remote add origin https://github.com/HeeeyLais/Luva-de-Boxe.git<br>
 git branch -M main<br>
 git push -u origin main<br>
 
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
 ## Para inicializar:
 pip install flask flask-socketio pyserial<br>
 python backend.py <br>

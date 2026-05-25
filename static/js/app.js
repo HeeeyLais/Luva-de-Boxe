@@ -8,9 +8,9 @@ const cores = {
 };
 
 const intervalos = {
-  LEVE:    "0 – 149 N",
-  MEDIO:   "150 – 349 N",
-  FORTE:   "350 – 599 N",
+  LEVE:    "0 - 149 N",
+  MEDIO:   "150 - 349 N",
+  FORTE:   "350 - 599 N",
   NOCAUTE: "600+ N",
 };
 
